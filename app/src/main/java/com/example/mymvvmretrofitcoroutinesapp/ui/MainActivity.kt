@@ -1,4 +1,4 @@
-package com.example.mymvvmretrofitcoroutinesapp
+package com.example.mymvvmretrofitcoroutinesapp.ui
 
 import android.os.Bundle
 import android.view.View
@@ -8,6 +8,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.mymvvmretrofitcoroutinesapp.R
 import com.example.mymvvmretrofitcoroutinesapp.app.MyApplication
 import com.example.mymvvmretrofitcoroutinesapp.viewmodel.MainViewModel
 import com.example.mymvvmretrofitcoroutinesapp.viewmodel.MainViewModelFactory

@@ -1,6 +1,6 @@
 package com.example.mymvvmretrofitcoroutinesapp.di
 
-import com.example.mymvvmretrofitcoroutinesapp.MainActivity
+import com.example.mymvvmretrofitcoroutinesapp.ui.MainActivity
 import dagger.Component
 import javax.inject.Singleton
 

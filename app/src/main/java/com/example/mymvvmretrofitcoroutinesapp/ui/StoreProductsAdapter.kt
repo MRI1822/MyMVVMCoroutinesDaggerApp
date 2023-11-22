@@ -1,10 +1,11 @@
-package com.example.mymvvmretrofitcoroutinesapp
+package com.example.mymvvmretrofitcoroutinesapp.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.mymvvmretrofitcoroutinesapp.R
 import com.example.mymvvmretrofitcoroutinesapp.model.Product
 
 class StoreProductsAdapter: RecyclerView.Adapter<StoreProductsViewHolder>() {
