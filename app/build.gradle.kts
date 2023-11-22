@@ -55,32 +55,18 @@ dependencies {
     androidTestImplementation ("androidx.test.ext:junit:1.1.5 ")
     androidTestImplementation ("androidx.test.espresso:espresso-core:3.5.1 ")
 
-//    implementation ("com.google.dagger:dagger:2.48")
-//    annotationProcessor ("com.google.dagger:dagger-compiler:2.48")
-//    implementation ("com.google.dagger:dagger-android:2.48")
-//    implementation ("com.google.dagger:dagger-android-support:2.48")
-//    kapt ("com.google.dagger:dagger-compiler:2.48")
-//    kapt ("com.google.dagger:dagger-android-processor:2.46.1")
-
     implementation ("com.google.dagger:dagger:2.48")
     kapt ("com.google.dagger:dagger-compiler:2.48")
 
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.5.1")
 
-    val retrofit_version = "2.9.0"
-    implementation ("com.squareup.retrofit2:retrofit:$retrofit_version")
-    implementation ("com.squareup.retrofit2:converter-gson:$retrofit_version")
+    val retrofitVersion = "2.9.0"
+    implementation ("com.squareup.retrofit2:retrofit:$retrofitVersion")
+    implementation ("com.squareup.retrofit2:converter-gson:$retrofitVersion")
 
-
-    val room_version = "2.4.3"
-    implementation ("androidx.room:room-runtime:$room_version")
-    implementation ("androidx.room:room-ktx:$room_version")
-    annotationProcessor ("androidx.room:room-compiler:$room_version")
-//    kapt "androidx.room:room-compiler:$room_version"
-
-    val coroutines_version = "1.7.3"
-    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version")
-    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version")
+    val coroutinesVersion = "1.7.3"
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion")
 
 }
