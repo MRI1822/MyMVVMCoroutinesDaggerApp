@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         val component = (application as MyApplication).appComponent
         component.inject(this)
         mainViewModel = ViewModelProvider(this,mainViewModelFactory)[MainViewModel::class.java]
+        productsAdapter = StoreProductsAdapter()
 
         setupProductsList()
         setupLiveDataObservers()
@@ -41,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.apply {
             setHasFixedSize(true)
             layoutManager = LinearLayoutManager(context)
-            adapter = StoreProductsAdapter()
+            adapter = productsAdapter
         }
     }
 
